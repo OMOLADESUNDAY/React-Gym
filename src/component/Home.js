@@ -31,7 +31,7 @@ const Home = () => {
         })}
       </div>
       <section className="container show_feature_btn_container">
-        <Link className="btn show_feature_btn">See All Features</Link>
+        <Link to="/features" className="btn show_feature_btn">See All Features</Link>
       </section>
       <section>
         <article className="download_article">
@@ -77,7 +77,7 @@ const Home = () => {
           />
         </article>
       </section>
-      <section className="testimony_section">
+      <section className=" testimony_section">
         <button className="left_scroll_btn">
           <IoIosArrowDropleftCircle className="scroll__btn" />
         </button>

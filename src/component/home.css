@@ -95,11 +95,12 @@
 
 
 .testimony_section{
+    padding:0 2rem ;
     display: flex;
     max-width: 100%;
     flex-wrap:nowrap;
     overflow: hidden;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     gap: 1rem;
     margin: 2rem 0;
@@ -107,7 +108,7 @@
 }
 .testimony__article{
     padding: 1rem;
-    min-height: 190px;
+    min-height: 150px;
     min-width: 20%;
     background-color: var(--color-bg-variant);
     position: relative;
