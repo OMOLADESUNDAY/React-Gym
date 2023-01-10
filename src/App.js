@@ -11,7 +11,7 @@ import Contact from './component/Contact';
 import Gallery from './component/Gallery';
 import Footer from './component/Footer'
 import Register from './component/Register';
-import About from './component/About';
+
 function App() {
   return (
     <div className="">
@@ -25,7 +25,6 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </div>
