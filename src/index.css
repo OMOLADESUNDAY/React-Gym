@@ -32,7 +32,7 @@
   display: none;
 }
 body{
-  background-color: var(--color-bg);
+  background-color: rgba(3, 1, 12, 0.842);
   font-family: Arial, Helvetica, sans-serif;
   /* font-size: 16px; */
   
@@ -41,12 +41,12 @@ p{
   /* font-size: 16px; */
 }
 .btn{
-  background:var(--color-primary);
+  background:rgb(214, 211, 13);
   display: inline-block;
-  padding: var(--padding-sm,) var(--padding-md);
+  padding: 0.6rem 1.0rem;
   cursor: pointer;
   text-align: center;
-  transition: var(--transition);
+  transition: 0.5s ease-in-out;
   border-radius:1rem;
   position: relative;
   font-size: 1.3rem;
@@ -54,17 +54,17 @@ p{
 }
 .btn-primary{
   background: transparent;
-  border:1px solid var(--color-primary);
+  border:1px solid rgb(214, 211, 13);
 }
 .btn:hover{
-  background: var(--color-bg-variant);
+  background: rgba(0, 0, 0, 0.356);
 }
 .container{
-  width: var(--width-container-sm);
+  width: 75%;
   margin: auto;
 }
 h2,h3,h4,h5{
-  color: var(--color-primary);
+  color: rgb(214, 211, 13);
 }
 
 

@@ -3,7 +3,7 @@
     align-items:flex-start;
     justify-content:space-between;
     gap: 2rem;
-    background-color: var(--color-bg-variant);
+    background-color: rgba(0, 0, 0, 0.356);
 }
 .footer__section article{
     width: 30%;
@@ -40,7 +40,7 @@
     margin: 0.5rem;
 }
 .sitemap_link{
-    color: var(--text-color);
+    color: white;
 }
 .follow_text{
     font-weight: 600;
@@ -48,12 +48,12 @@
 }
 .social_icon{
     font-size: 1rem;
-    color: var(--text-color);
+    color: white;
 }
 .copyright{
     margin: 0.5rem;
     text-align: center;
 }
 .copyright small{
-    color: var(--text-color);
+    color: white;
 }
