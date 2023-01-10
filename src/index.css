@@ -5,7 +5,7 @@
   list-style: none;
   text-decoration: none;
 }
-:root {
+/* :root {
   --color-bg-variant:rgba(0, 0, 0, 0.356);
   --color-bg:rgba(3, 1, 12, 0.842);
   --color-primary:rgb(214, 211, 13);
@@ -27,7 +27,7 @@
   --text-font-sm: 1rem;
 
  
-}
+} */
 ::-webkit-scrollbar{
   display: none;
 }
