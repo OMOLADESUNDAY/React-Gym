@@ -69,9 +69,7 @@
     width: 60%;
     position: relative;
 }
-.download_article p{
-    font-size: 0.7rem;
-}
+
 .downloadapp_img{
     width: 30%;
     height: 150px;
@@ -113,9 +111,7 @@
     background-color: var(--color-bg-variant);
     position: relative;
 }
-.testimony__article p{
-    font-size: 0.7rem;
-}
+
 .testimony__image{
     display: block;
     margin: auto;

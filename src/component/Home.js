@@ -6,6 +6,14 @@ import { featuresData,testimoniesData } from '../data/data'
 import {IoIosArrowDroprightCircle,IoIosArrowDropleftCircle} from "react-icons/io";
 import './home.css'
 
+const Slider=(direction)=>{
+  return(
+    console.log('clicked '+ direction)
+  )
+}
+
+
+
 const Home = () => {
   return (
     <div>
@@ -31,7 +39,9 @@ const Home = () => {
         })}
       </div>
       <section className="container show_feature_btn_container">
-        <Link to="/features" className="btn show_feature_btn">See All Features</Link>
+        <Link to="/features" className="btn show_feature_btn">
+          See All Features
+        </Link>
       </section>
       <section>
         <article className="download_article">
@@ -78,7 +88,7 @@ const Home = () => {
         </article>
       </section>
       <section className=" testimony_section">
-        <button className="left_scroll_btn">
+        <button className="left_scroll_btn" onClick={() => Slider("left")}>
           <IoIosArrowDropleftCircle className="scroll__btn" />
         </button>
 
@@ -92,7 +102,7 @@ const Home = () => {
             </article>
           );
         })}
-        <button className="right_scroll_btn">
+        <button className="right_scroll_btn" onClick={() => Slider("right")}>
           <IoIosArrowDroprightCircle className="scroll__btn" />
         </button>
       </section>
