@@ -1,0 +1,74 @@
+.downloadDemoApp_container{
+    background-color: var(--color-bg-variant);
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.downloaddemo_firstarticle{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+}
+
+.downloaddemo_image_container{
+    width: 30%;
+    
+}
+.downloaddemo_text_container{
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;   
+}
+.downloaddemo_image{
+    width: 100%;
+    height: 200px;
+}
+.downloaddemo_text{
+    font-size: 13px;
+}
+.download-btn{
+    position: absolute;
+    
+    right: 2px;
+    padding: 0.5rem ;
+    border-radius: 5px;
+    color: black;
+    margin-top:10px ;
+}
+@media screen and (max-width:840px) {
+
+  .downloaddemo_image_container{
+    width: 35%;
+    
+}
+.downloaddemo_text_container{
+    width: 55%;       
+}
+
+}
+
+/* ========================small=========== */
+@media screen and (max-width:600px) {
+  .downloaddemo_firstarticle{
+   flex-direction: column;
+   margin: auto;
+   align-items: center;
+}
+    .inverse{
+    display: flex;
+    flex-direction:column-reverse;
+
+}
+.downloaddemo_image_container{
+    width: 80%;
+    
+}
+.downloaddemo_text_container{
+    width: 80%;
+      
+}
+}

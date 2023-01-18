@@ -1,0 +1,37 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-lg);
+    background-color: var(--color-bg);
+}
+.nav_items_container{
+    display: flex;
+    gap: 1rem;
+}
+.navbar_logo{
+    color: var(--text-color);
+}
+.nav_item{
+    color: var(--text-color);
+}
+.menu_btn{
+    display: none;
+}
+.close_menu_btn{
+    display: none;
+}
+@media screen and (max-width:840px) {
+  .nav_items{
+    display: none;
+  }
+  .menu_btn{
+    display: block;
+  }
+  
+}
+
+/* ========================small=========== */
+@media screen and (max-width:600px) {
+  
+}

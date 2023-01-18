@@ -12,58 +12,60 @@ const Footer = () => {
   return (
     <div>
       <section className="container footer__section">
-        <article>
+        <article >
           <h5>About us</h5>
-          <p>
+          <p className="text-light about_text">
             Our staff, Trainer and Group exercise instructor are commited to the
             fearing of our members a great fitness experience.We have 30+ years
             of Experienced
           </p>
           <div>
-            <Link to="/">logo</Link>
+            <Link to="/" className="text-light">
+              logo
+            </Link>
           </div>
         </article>
-        <article>
+        <article className="sitemap">
           <h5> Sitemap</h5>
           <p>
-            <Link className="sitemap_link">Shop</Link>
+            <Link className="sitemap_link text-light">Shop</Link>
           </p>
           <p>
-            <Link className="sitemap_link">personal Training</Link>
+            <Link className="sitemap_link text-light">personal Training</Link>
           </p>
           <p>
-            <Link className="sitemap_link">Features</Link>
+            <Link className="sitemap_link text-light">Features</Link>
           </p>
           <p>
-            <Link className="sitemap_link">Clubs</Link>
+            <Link className="sitemap_link text-light">Clubs</Link>
           </p>
           <p>
-            <Link className="sitemap_link">Gallery</Link>
+            <Link className="sitemap_link text-light">Gallery</Link>
           </p>
         </article>
-        <article>
+        <article className="contact_article">
           <h5>Contact us</h5>
           <div className="location_container">
-            <GoLocation className="social_icon" />
-            <p>North gate Akure</p>
+            <GoLocation className="social_icon text-light" />
+            <p className="text-light">North gate Akure</p>
           </div>
           <div className="location_container">
-            <BsTelephone className="social_icon" />
-            <p>+2347069258526</p>
+            <BsTelephone className="social_icon text-light" />
+            <p className="text-light">+2347069258526</p>
           </div>
-          <p className="follow_text">Follow Us On</p>
-          <div className="location_container">
+          <p className="follow_text text-light">Follow Us On</p>
+          <div className="location_container ">
             <Link to="https://www.facebook.com/omoladesunday.15">
-              <AiFillFacebook className="social_icon" />
+              <AiFillFacebook className="social_icon text-light" />
             </Link>
             <Link>
-              <BsInstagram className="social_icon" />
+              <BsInstagram className="social_icon text-light" />
             </Link>
             <Link>
-              <BsTwitter className="social_icon" />
+              <BsTwitter className="social_icon text-light" />
             </Link>
             <Link>
-              <BsWhatsapp className="social_icon" />
+              <BsWhatsapp className="social_icon text-light" />
             </Link>
           </div>
         </article>

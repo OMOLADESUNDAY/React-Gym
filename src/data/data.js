@@ -83,22 +83,6 @@ export const testimoniesData = [
   },
 ];
 
-export const downloadAppData = [
-  {
-    id: 1,
-    image: feature7,
-    name: "Great Equipment",
-    description:
-      "get exclusive access to iconic instructor with immersive live and on-demand classes whereever you are, whenever you are ready. Unrivaled access to today's best-in-class brand. Sweat with us, ride with SoulCycle, recover with TB12,flow with PURE yogaPush your pace with precision run and meditate with Headstrong --All in one app",
-  },
-  {
-    id: 2,
-    image: feature8,
-    name: "Personal Training",
-    description:
-      "get exclusive access to iconic instructor with immersive live and on-demand classes whereever you are, whenever you are ready. Unrivaled access to today's best-in-class brand. Sweat with us, ride with SoulCycle, recover with TB12,flow with PURE yogaPush your pace with precision run and meditate with Headstrong --All in one app",
-  },
-];
 
 export const featuresData = [
   {
