@@ -4,8 +4,8 @@ import feature3 from '../image/gym-equipment3.jpg'
 import feature4 from '../image/gym-girl1.jpg'
 import feature5 from '../image/gym-girl2.jpg'
 import feature6 from '../image/gym-girl3.jpg'
-import feature7 from '../image/gym-girl4.jpg'
-import feature8 from '../image/gym-guy5.jpg'
+//import feature7 from '../image/gym-girl4.jpg'
+//import feature8 from '../image/gym-guy5.jpg'
 import testimony1 from "../image/61630772-removebg-preview.png";
 import testimony2 from "../image/avatar1.jpg";
 import testimony3 from "../image/avatar2.jpg";
